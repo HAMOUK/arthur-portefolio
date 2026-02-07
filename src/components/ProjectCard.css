@@ -41,3 +41,47 @@
 .project-card-link:hover .project-card {
   background-color: #f9f9f9;
 }
+
+/* Tablette */
+@media (max-width: 768px) {
+  .project-card {
+    gap: 1.5rem;
+  }
+  
+  .project-image {
+    flex: 0 0 200px;
+  }
+  
+  .project-image img {
+    height: 150px;
+  }
+  
+  .project-card h2 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .project-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .project-image {
+    flex: none;
+    width: 100%;
+  }
+  
+  .project-image img {
+    height: 200px;
+  }
+  
+  .project-card h2 {
+    font-size: 1rem;
+  }
+  
+  .project-card p {
+    font-size: 0.85rem;
+  }
+}

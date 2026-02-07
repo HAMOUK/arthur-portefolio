@@ -1,19 +1,48 @@
 .header {
-	padding: 4rem 0;
-	border-bottom: 1px solid #e0e0e0;
-	margin-bottom: 3rem;
+  padding: 4rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 3rem;
 }
 
 .header h1 {
-	font-size: 2.5rem;
-	font-weight: 300;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
 .header p {
-	font: 0.9rem;
-	color: #666;
-	letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  color: #666;
+  letter-spacing: 0.05em;
+}
+
+/* Tablette */
+@media (max-width: 768px) {
+  .header {
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .header {
+    padding: 2rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+  }
+  
+  .header p {
+    font-size: 0.8rem;
+  }
 }

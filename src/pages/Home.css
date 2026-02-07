@@ -3,7 +3,7 @@
 }
 
 .hero {
-  height: 100vh;
+  height: calc(100vh - 60px);
   width: 100%;
   position: fixed;
   top: 0;
@@ -20,7 +20,7 @@
 
 .projects-section {
   position: relative;
-  margin-top: 100vh;
+  margin-top: calc(100vh - 60px);
   background-color: white;
   min-height: 100vh;
   padding: 0 2rem;
@@ -41,4 +41,32 @@
   letter-spacing: 0.2em;
   color: #999;
   border-bottom: 1px solid #e0e0e0;
+}
+
+/* Tablette */
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 0 1.5rem;
+  }
+  
+  .section-title {
+    padding: 2rem 0 1.5rem 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .hero img {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .projects-section {
+    padding: 0 1rem;
+  }
+  
+  .section-title {
+    font-size: 0.8rem;
+    padding: 1.5rem 0 1rem 0;
+  }
 }

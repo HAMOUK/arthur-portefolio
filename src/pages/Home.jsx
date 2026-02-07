@@ -10,7 +10,7 @@ function Home() {
       </section>
       
       <section className="projects-section">
-        <h2 className="section-title">Mes Projets</h2>
+        <h2 className="section-title">Projets</h2>
         <main>
           {projets.map(projet => (
             <ProjectCard
@@ -18,7 +18,7 @@ function Home() {
               id={projet.id}
               titre={projet.titre}
               description={projet.descriptionCourte}
-              image={projet.image}
+              imageCover={projet.imageCover}
             />
           ))}
         </main>

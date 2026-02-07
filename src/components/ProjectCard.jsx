@@ -6,7 +6,7 @@ function ProjectCard(props) {
     <Link to={`/projet/${props.id}`} className='project-card-link'>
       <article className='project-card'>
         <div className='project-image'>
-          <img src={props.image} alt={props.titre} />
+          <img src={props.imageCover} alt={props.titre} />
         </div>
         <div className='project-info'>
           <h2>{props.titre}</h2>
