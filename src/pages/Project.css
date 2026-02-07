@@ -1,0 +1,47 @@
+.project-detail {
+  padding: 2rem 0;
+}
+
+.back-link {
+  display: inline-block;
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.back-link:hover {
+  color: #1a1a1a;
+}
+
+.project-header {
+  margin-bottom: 2rem;
+}
+
+.project-header h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.project-header .sous-titre {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.project-description {
+  max-width: 600px;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.9;
+  white-space: pre-line;
+}
